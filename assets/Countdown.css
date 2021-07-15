@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Background image from https://www.fluther.com/125312/how-to-calculate-walking-time-into-cycling-time/ */
+
+body {
+    background-color: #122738;
+    background-image: url("/wallpaper.v0b2e3.gif");
+    background-position: top;
+    background-repeat: repeat-x;
+    color: #445D6D;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+
+}
+
+#wordDisplaySection {
+    display: inline-flex;
+    background-color: white;
+    border: 1px solid #EBEBEB;
+
+    width: 70%;
+    justify-content: center;
+}
+
+h1, h2 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 2rem 0rem;
+    font-size: 5rem;
+}
+
+h2 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#game-display {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #EBEBEB;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+td {
+    border: 4px solid whitesmoke;
+    height: 5rem;
+    width: 9%;
+    background-color: blue;
+    border-radius: 4px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.2rem;
+}
+
+#buttons {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#wordDisplaySection {
+    width: 100%;
+    display: inline-flexbox;
+}
+
+li {
+    list-style: none;
+}
+
+.word-buttons {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.143rem;
+}
+
+ul:not(li) {
+    text-align: center;
+    padding: 0% 2%;
+}
+
+li {
+    font-weight: 900;
+    /* background-color: white; */
+}
